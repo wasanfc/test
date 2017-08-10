@@ -1,0 +1,115 @@
+<?xml version   ="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.blah.blah"
+    versionCode = "1003"
+    version     = "1.00b">
+   
+   
+    <name>blah</name>
+   
+       <description>
+        blah
+    </description>
+ 
+ 
+   
+    <author href="http://www.blah.com">
+        blah
+    </author>
+   
+    <content src="index.html"/>
+    <icon src="images/icon2.png" width="256" height="256" />
+   
+ 
+  <preference name="phonegap-version" value="cli-6.3.0" />-->
+                       
+     <!--   
+  <preference name="phonegap-version" value="cli-5.1.1" />
+ 
+  <preference name="phonegap-version" value="3.7.0" /> -->
+  
+ 
+ 
+  <preference name="stay-in-webview" value="false" />
+ 
+ 
+<access origin="*" />
+ 
+ 
+<!--NEW -->
+<gap:plugin name="cordova-plugin-whitelist" source="npm"/>
+<gap:plugin name="org.apache.cordova.device" source="npm"/>
+<gap:plugin name="org.apache.cordova.camera" source="npm"/>
+<gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
+<gap:plugin name="org.apache.cordova.file" source="npm"/>
+<gap:plugin name="org.apache.cordova.file-transfer" source="npm"/>
+<!--<gap:plugin name="org.apache.cordova.geolocation" source="npm"/> -->
+<gap:plugin name="org.apache.cordova.globalization" source="npm" />
+ 
+ 
+   
+<plugin name="cordova-plugin-geolocation" source="npm" />
+ 
+ 
+ 
+ 
+<gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
+<gap:plugin name="org.apache.cordova.network-information" source="npm"/>
+<gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
+<gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
+<!--<gap:plugin name="org.apache.cordova.core.geolocation" />-->
+<gap:plugin name="org.apache.cordova.media" source="npm"/>
+<gap:plugin name="org.apache.cordova.media-capture" source="npm"/>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+    <preference name="orientation" value="portrait" />
+    <preference name="android-minSdkVersion" value="9" />
+ 
+  <gap:platform name="ios" />
+  <gap:platform name="android" />
+<!-- <gap:platform name="webos" />
+  <gap:platform name="symbian" />
+  <gap:platform name="blackberry" />
+  <gap:platform name="winphone" />-->
+ 
+ 
+ 
+ 
+ 
+  <icon src="images/icon2.png" />
+ 
+ 
+ 
+ 
+<feature name="Geolocation">
+    <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
+</feature>
+ 
+ 
+ 
+ 
+ 
+ 
+  <!--ANDROID-->
+ 
+ 
+  <gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+  <gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+  <gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+  <gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</widget>
